@@ -41,6 +41,14 @@
       href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
     />
 
+    <!-- BS4 -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
     <!-- LIGHTSPEEDBOX-->
     <link href="dist/lsb.css" rel="stylesheet" />
 
@@ -53,7 +61,7 @@
     <header>
       <div class="header__content">
         <div class="header__left">
-          <a href="#">
+          <a href="../index.html">
             <p>Hous<span>ing</span></p>
           </a>
         </div>
@@ -94,7 +102,7 @@
             </ul>
           </div>
           <div class="header__navi-button">
-            <button ><i class="fas fa-bars"></i></button>
+            <button><i class="fas fa-bars"></i></button>
           </div>
           <div class="header__navi-sm">
             <ul>
@@ -249,58 +257,114 @@
           <div class="blog__pic">
             <img src="./images/g1.jpg" alt="" />
           </div>
-          <div class="blog__item-title">
-            <a href="#"></a> <h1> Luxury Industrial Apartment. </h1> </a>
-          </div>
           <div class="blog__text">
-            <p>
-               The geometric theme runs throughout in various forms, creating a unique, slick and contemporary vision.
-            </p>
-          </div>
-          <div class="blog__button"> 
-            <a href="#"><button>Readmore..</button></a>
+            <div class="blog__text-top">
+              <a href="#" data-toggle="modal" data-target="#exampleModalLong">
+                <h5>Luxury Industrial Apartment.</h5>
+              </a>
+            </div>
+            <div class="blog__text-mid">
+              <p>
+                The geometric theme runs throughout in various forms, creating a
+                unique, slick and contemporary vision.
+              </p>
+            </div>
+            <div class="blog__text-bot">
+              <a href="#"><button>Readmore..</button></a>
+            </div>
           </div>
         </div>
         <div class="blog__item">
           <div class="blog__pic">
             <img src="./images/g1.jpg" alt="" />
           </div>
-          <div class="blog__item-title">
-            <a href="#"> <h1> Luxury Apartment With An Industrial Vibe. </h1> </a>
-          </div>
           <div class="blog__text">
-            <p>
-               The geometric theme runs throughout in various forms, creating a unique, slick and contemporary vision.
-            </p>
-          </div>
-          <div class="blog__button"> 
-            <a href="#"><button>Readmore..</button></a>
+            <div class="blog__text-top">
+              <a href="#"> <h5>Luxury Industrial Apartment.</h5> </a>
+            </div>
+            <div class="blog__text-mid">
+              <p>
+                The geometric theme runs throughout in various forms, creating a
+                unique, slick and contemporary vision.
+              </p>
+            </div>
+            <div class="blog__text-bot">
+              <a href="#"><button>Readmore..</button></a>
+            </div>
           </div>
         </div>
         <div class="blog__item">
           <div class="blog__pic">
             <img src="./images/g1.jpg" alt="" />
           </div>
-          <div class="blog__item-title">
-            <a href="#"> <h1> Luxury Apartment With An Industrial Vibe. </h1> </a>
-          </div>
           <div class="blog__text">
-            <p>
-               The geometric theme runs throughout in various forms, creating a unique, slick and contemporary vision.
-            </p>
+            <div class="blog__text-top">
+              <a href="#"><h5>Luxury Industrial Apartment.</h5> </a>
+            </div>
+            <div class="blog__text-mid">
+              <p>
+                The geometric theme runs throughout in various forms, creating a
+                unique, slick and contemporary vision.
+              </p>
+            </div>
+            <div class="blog__text-bot">
+              <a href="#"><button>Read more..</button></a>
+            </div>
           </div>
-          <div class="blog__button"> 
-            <a href="#"><button>Readmore..</button></a>
+        </div>
+      </div>
+      <!-- readmore pop-up modal -->
+      <div class="blog__popup-modal">
+        <div
+          class="modal fade"
+          id="exampleModalLong"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLongTitle"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog" role="document">
+            <div class="modal-content blog__my-modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">HOUSING</h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">
+                    <img src="./images/close.png" alt="" />
+                  </span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="blog__modal-img">
+                  <img src="./images/img2.jpg" alt="" />
+                </div>
+                <p>
+                  Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                  corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
+                  consequatur? Quis autem vel eum iure reprehenderit qui in ea
+                  voluptate velit esse quam nihil molestiae consequatur, vel
+                  illum qui dolorem eum fugiat quo voluptas nulla pariatur.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <!--  5-BLOG -->
     <!--  06-VID -->
-    <section class="vid"></section>
+    <section class="vid">
+      <div class="vid__content" style="height: 600px;"></div>
+    </section>
     <!-- 06-VID -->
     <!--  07-GALLERY -->
-    <section class="gallery" id="portfolio"></section>
+    <section class="gallery" id="portfolio">
+
+    </section>
     <!-- 07-GALLERY -->
     <!--  08-SUB -->
     <section class="sub"></section>
@@ -322,6 +386,18 @@
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
       integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+    ></script>
+    <!-- readmore pop-up -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <!-- BS4 -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
     <!-- SLICK JS -->
